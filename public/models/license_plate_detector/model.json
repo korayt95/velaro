@@ -1,0 +1,45 @@
+{
+  "format": "graph-model",
+  "generatedBy": "2.8.0",
+  "convertedBy": "TensorFlow.js Converter v3.18.0",
+  "modelTopology": {
+    "node": [
+      {
+        "name": "image_tensor",
+        "op": "Placeholder",
+        "attr": {
+          "dtype": {
+            "type": "DT_UINT8"
+          },
+          "shape": {
+            "shape": {
+              "dim": [
+                {
+                  "size": "-1"
+                },
+                {
+                  "size": "-1"
+                },
+                {
+                  "size": "-1"
+                },
+                {
+                  "size": "3"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "library": {},
+    "versions": {}
+  },
+  "weightsManifest": [
+    {
+      "paths": ["group1-shard1of1.bin"],
+      "weights": []
+    }
+  ]
+}
+

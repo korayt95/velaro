@@ -1,0 +1,145 @@
+.
+├── app
+│   ├── api
+│   │   ├── detect-plate
+│   │   ├── generate-listing
+│   │   ├── health
+│   │   ├── image-analysis
+│   │   ├── image-editor
+│   │   ├── verify-plate-recognizer-key
+│   │   └── vin
+│   ├── generator
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── history
+│   │   ├── loading.tsx
+│   │   └── page.tsx
+│   ├── image-editor
+│   │   └── page.tsx
+│   ├── layout.tsx
+│   ├── login
+│   │   ├── loading.tsx
+│   │   └── page.tsx
+│   ├── not-found.tsx
+│   ├── page.tsx
+│   ├── pricing
+│   │   └── page.tsx
+│   └── profile
+│       ├── license-plate-templates.tsx
+│       ├── page.tsx
+│       └── sabloane-manager.tsx
+├── components
+│   ├── error-boundary.tsx
+│   ├── how-it-works-section.tsx
+│   ├── image-editor
+│   │   ├── api-key-setup.tsx
+│   │   ├── before-after-slider.tsx
+│   │   ├── client-plate-blur.tsx
+│   │   ├── image-card.tsx
+│   │   ├── image-detail-view.tsx
+│   │   ├── license-plate-editor.tsx
+│   │   ├── manual-image-editor.tsx
+│   │   ├── processing-settings.tsx
+│   │   └── upload-area.tsx
+│   ├── loading-spinner.tsx
+│   ├── meta-tags.tsx
+│   ├── nav-bar.tsx
+│   ├── profile
+│   │   └── sabloane-manager.tsx
+│   ├── theme-provider.tsx
+│   ├── ui
+│   │   ├── accordion.tsx
+│   │   ├── alert-dialog.tsx
+│   │   ├── alert.tsx
+│   │   ├── animated-button.tsx
+│   │   ├── aspect-ratio.tsx
+│   │   ├── avatar.tsx
+│   │   ├── badge.tsx
+│   │   ├── breadcrumb.tsx
+│   │   ├── button.tsx
+│   │   ├── calendar.tsx
+│   │   ├── card.tsx
+│   │   ├── carousel.tsx
+│   │   ├── chart.tsx
+│   │   ├── checkbox.tsx
+│   │   ├── collapsible.tsx
+│   │   ├── color-picker.tsx
+│   │   ├── command.tsx
+│   │   ├── context-menu.tsx
+│   │   ├── custom-toast.tsx
+│   │   ├── dialog.tsx
+│   │   ├── drawer.tsx
+│   │   ├── dropdown-menu.tsx
+│   │   ├── form.tsx
+│   │   ├── hover-card.tsx
+│   │   ├── input-otp.tsx
+│   │   ├── input.tsx
+│   │   ├── label.tsx
+│   │   ├── loading-spinner.tsx
+│   │   ├── menubar.tsx
+│   │   ├── navigation-menu.tsx
+│   │   ├── pagination.tsx
+│   │   ├── popover.tsx
+│   │   ├── progress.tsx
+│   │   ├── radio-group.tsx
+│   │   ├── resizable.tsx
+│   │   ├── scroll-area.tsx
+│   │   ├── select.tsx
+│   │   ├── separator.tsx
+│   │   ├── sheet.tsx
+│   │   ├── sidebar.tsx
+│   │   ├── skeleton.tsx
+│   │   ├── slider.tsx
+│   │   ├── sonner.tsx
+│   │   ├── switch.tsx
+│   │   ├── table.tsx
+│   │   ├── tabs.tsx
+│   │   ├── textarea.tsx
+│   │   ├── toast.tsx
+│   │   ├── toaster.tsx
+│   │   ├── toggle-group.tsx
+│   │   ├── toggle.tsx
+│   │   ├── tooltip.tsx
+│   │   ├── use-mobile.tsx
+│   │   └── use-toast.ts
+│   ├── vin-search.tsx
+│   └── why-use-velaro-section.tsx
+├── components.json
+├── contexts
+│   └── auth-context.tsx
+├── hooks
+│   ├── use-mobile.tsx
+│   └── use-toast.ts
+├── lib
+│   ├── api-key-storage.ts
+│   ├── firebase.ts
+│   ├── firestore-service.ts
+│   ├── generate-image.ts
+│   ├── generate-listing.ts
+│   ├── image-enhancer.ts
+│   ├── license-plate-detector.ts
+│   ├── pdf-export.ts
+│   ├── plate-blur.ts
+│   └── utils.ts
+├── middleware.ts
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── public
+│   ├── models
+│   │   └── license_plate_detector
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+├── structure.txt
+├── styles
+│   └── globals.css
+├── tailwind.config.ts
+└── tsconfig.json
+
+27 directories, 116 files
